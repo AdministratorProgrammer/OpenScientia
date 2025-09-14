@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Roadmap - Полный путь изучения математики</title>
+    <link href="roadmap-style.css" rel="stylesheet"/>
+    <script src="roadmap-script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Math Roadmap</h1>
+            <p class="subtitle">Полный путь изучения математики от основ до продвинутых тем</p>
+        </header>
+        
+        <div class="roadmap">
+            <div class="level level-0">
+                <div class="level-header" onclick="toggleLevel(this)">
+                    <h2>Уровень 0: Фундаментальная грамотность</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="level-content">
+                    <div class="topics">
+                        <div id="lvl-0_elt-0" class="topic">Арифметика: сложение, вычитание, умножение, деление</div>
+                        <div id="lvl-0_elt-1" class="topic">Дроби, проценты и десятичные числа</div>
+                        <div id="lvl-0_elt-2" class="topic">Основы алгебры: переменные, простые уравнения</div>
+                        <div id="lvl-0_elt-3" class="topic">Основы геометрии: фигуры, периметр, площадь</div>
+                        <div id="lvl-0_elt-4" class="topic">Логика и решение простых задач</div>
+                        <div id="lvl-0_elt-5" class="topic">Работа с единицами измерения</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="level level-1">
+                <div class="level-header" onclick="toggleLevel(this)">
+                    <h2>Уровень 1: Средняя школа</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="level-content">
+                    <div class="topics">
+                        <div id="lvl-1_elt-0" class="topic">Алгебра: многочлены, квадратные уравнения</div>
+                        <div id="lvl-1_elt-1" class="topic">Геометрия (Планиметрия): теоремы, свойства фигур</div>
+                        <div id="lvl-1_elt-2" class="topic">Тригонометрия: синус, косинус, тангенс</div>
+                        <div id="lvl-1_elt-3" class="topic">Начала математического анализа: функции, графики</div>
+                        <div id="lvl-1_elt-4" class="topic">Основы комбинаторики и теории вероятностей</div>
+                        <div id="lvl-1_elt-5" class="topic">Системы уравнений и неравенств</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="level level-2">
+                <div class="level-header" onclick="toggleLevel(this)">
+                    <h2>Уровень 2: Старшая школа / 1-2 курс вуза</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="level-content">
+                    <div class="topics">
+                        <div id="lvl-2_elt-0" class="topic">Математический анализ: пределы, производные, интегралы</div>
+                        <div id="lvl-2_elt-1" class="topic">Линейная алгебра: матрицы, определители, системы уравнений</div>
+                        <div id="lvl-2_elt-2" class="topic">Аналитическая геометрия: векторы, линии, поверхности</div>
+                        <div id="lvl-2_elt-3" class="topic">Дифференциальные уравнения</div>
+                        <div id="lvl-2_elt-4" class="topic">Теория чисел: основы</div>
+                        <div id="lvl-2_elt-5" class="topic">Комплексные числа</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="level level-3">
+                <div class="level-header" onclick="toggleLevel(this)">
+                    <h2>Уровень 3: 2-3 курс вуза</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="level-content">
+                    <div class="topics">
+                        <div id="lvl-3_elt-0" class="topic">Теория функций комплексного переменного</div>
+                        <div id="lvl-3_elt-1" class="topic">Дифференциальные уравнения в частных производных</div>
+                        <div id="lvl-3_elt-2" class="topic">Теория вероятностей и математическая статистика</div>
+                        <div id="lvl-3_elt-3" class="topic">Дискретная математика: теория графов, комбинаторика</div>
+                        <div id="lvl-3_elt-4" class="topic">Численные методы</div>
+                        <div id="lvl-3_elt-5" class="topic">Теория оптимизации</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="level level-4">
+                <div class="level-header" onclick="toggleLevel(this)">
+                    <h2>Уровень 4: 4-5 курс / Магистратура</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="level-content">
+                    <div class="topics">
+                        <div id="lvl-4_elt-0" class="topic">Функциональный анализ</div>
+                        <div id="lvl-4_elt-1" class="topic">Теория меры и интеграл Лебега</div>
+                        <div id="lvl-4_elt-2" class="topic">Топология</div>
+                        <div id="lvl-4_elt-3" class="topic">Алгебра: теории групп, колец, полей</div>
+                        <div id="lvl-4_elt-4" class="topic">Дифференциальная геометрия</div>
+                        <div id="lvl-4_elt-5" class="topic">Математическая логика и теория алгоритмов</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="level level-5">
+                <div class="level-header" onclick="toggleLevel(this)">
+                    <h2>Уровень 5: Специализация и исследовательская работа</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="level-content">
+                    <div class="topics">
+                        <div id="lvl-5_elt-0" class="topic">Специализированные области математики</div>
+                        <div id="lvl-5_elt-1" class="topic">Научно-исследовательская работа</div>
+                        <div id="lvl-5_elt-2" class="topic">Математическое моделирование сложных систем</div>
+                        <div id="lvl-5_elt-3" class="topic">Теория категорий</div>
+                        <div id="lvl-5_elt-4" class="topic">Современные проблемы математики</div>
+                        <div id="lvl-5_elt-5" class="topic">Прикладные аспекты математики в различных областях</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 Math Roadmap | Для всех, кто хочет освоить математику систематически</p>
+        </footer>
+    </div>
+</body>
+</html>
